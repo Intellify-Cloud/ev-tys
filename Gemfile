@@ -3,5 +3,4 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.0"
 gem "wdm", ">= 0.1.0"
 gem "listen", "~> 3.7"
-gem "sass-embedded", "1.98.0"
 gem 'ffi', '~> 1.15'
