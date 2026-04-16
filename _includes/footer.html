@@ -1,0 +1,52 @@
+<!-- BEGIN: MainFooter -->
+<footer class="bg-mzansi-teal/40 py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex flex-col lg:flex-row justify-between items-center space-y-12 lg:space-y-0">
+      <!-- Footer Logo and Social -->
+      <div class="space-y-6">
+        <div class="text-4xl font-black text-mzansi-orange">ṁzansi bonds</div>
+        <div class="flex space-x-4 text-mzansi-orange text-2xl">
+          <a href="https://www.instagram.com/mzansibonds" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/mzansibonds" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/mzansibonds" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <!-- Central Decorative Circle -->
+      <div class="hidden lg:block">
+        <div
+          class="bg-mzansi-orange text-white w-44 h-44 rounded-full flex flex-col items-center justify-center text-center p-4 font-bold text-xl leading-tight">
+          <span>Own your dream.</span>
+        </div>
+      </div>
+      <!-- Contact and Links -->
+      <div class="text-center lg:text-right space-y-4">
+        <div class="text-mzansi-orange font-bold text-sm space-y-1">
+          <p>Call {{ site.contact.phone }}</p>
+          <p>WhatsApp {{ site.contact.phone }}</p>
+          <p>Email: {{ site.contact.email }}</p>
+        </div>
+        <div
+          class="flex flex-col md:flex-row gap-4 justify-center lg:justify-end text-mzansi-purple font-bold text-xs uppercase underline">
+          <a href="{{ site.baseurl }}/bond-calculator">calculators</a>
+          <a href="{{ site.baseurl }}/documents">documents</a>
+          <a href="{{ site.baseurl }}/#get-started">get started</a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-20 pt-8 border-t border-mzansi-teal/40 flex flex-col md:flex-row justify-between items-center text-[10px] text-mzansi-purple uppercase font-semibold text-center md:text-left">
+      <div class="flex flex-col md:flex-row gap-2 md:gap-4 items-center">
+        <span>COPYRIGHT © {{ 'now' | date: "%Y" }} {{ site.company }}</span>
+        <div class="flex gap-2">
+          <a href="{{ site.baseurl }}/privacy-statement">PRIVACY POLICY</a>
+          <span>/</span>
+          <a href="{{ site.baseurl }}/legal">T&amp;Cs</a>
+        </div>
+      </div>
+      <div class="mt-4 md:mt-0 opacity-60">
+        WEBSITE DESIGN BY <span class="border px-1">VBDC</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END: MainFooter -->

@@ -1,0 +1,269 @@
+header:
+  title: "First Class Finance"
+  text: "We take the stress out of the process. Your application goes to multiple banks simultaneously — including your own — so they compete for your business and you walk away with the best rate on the table. Real savings, real peace of mind. And because we're paid by the banks on registration, our service is completely free to you."
+  highlights:
+    - title: "Bond Origination"
+      icon: "fas fa-home"
+    - title: "Debt Removal"
+      icon: "fas fa-shield-alt"
+    - title: "Vehicle Finance"
+      icon: "fas fa-car"
+
+expert:
+  title: "Buy with Confidence"
+  text: "By conducting a thorough pre-approval assessment, we assist purchasers to plan & understand the level of credit that they’ll be able to secure from the banks."
+  button 1 text: ""
+  button 2 text: ""
+
+nocharge:
+  title: "No Charge for our Service"
+  text: "We earn a once-off fee from the banks for each registered home loan. Our service is at zero cost to you."
+  button 1 text: ""
+  button 2 text: ""
+
+services:
+  title: "Services We Offer"
+  text: "We get you the best deal on your Home Loan by sourcing quotes from all the leading banks (including your own bank) for you to compare."
+  section: services
+  list:
+    - title: "Pre-qualification"
+      desc: "Contact us before you start looking at properties. With our streamlined pre-approval process, we will give you advice around your qualifying and affordability range, as well as on improving your credit and affordability profiles."
+      icon: fas fa-tasks
+      link:
+        url: /contact
+        text: "Contact Bond Studio"
+    - title: "Bond Origination"
+      desc: "We work hard on negotiating the best possible terms and interest rates for all our clients. Complete our easy Home Loan application form, and we will ensure that all your documentation is correct to be submitted to all the banks. We liaise with all the major banks (including your own bank) to guarantee you the best interest rates and deal on your Home Loan. "
+      icon: fas fas fa-home
+      link:
+        url: /contact
+        text: "First Class Finance"
+    - title: "Insurance"
+      desc: "We offer competitive insurance products including Building Insurance and Mortgage Protection, bringing all your home loan options under one roof."
+      icon: fas fa-shield-alt
+      link:
+        url: /contact
+        text: "First Class Finance"
+
+articles:
+  title: "Articles"
+  text: ""
+  section: articles
+
+calculators:
+  title: "Home Loan Calculators"
+  text: "Use our Home loan Calculators to work out the size of home loan you are likely to qualify for and what your bond repayments will be."
+  section: calculators
+  list:
+    - title: "Bond Calculator"
+      desc: "Calculate the home loan you qualify for."
+      icon: fas fa-calculator
+      link:
+        url: /affordability-calculator
+        text: "Calculate"
+    - title: "Repayment Calculator"
+      desc: "Calculate your monthly bond repayments."
+      icon: fas fa-calculator
+      link:
+        url: /bond-calculator
+        text: "Calculate"
+    - title: "Transfer Cost Calculator"
+      desc: "Calculate your registration and transfer costs."
+      icon: fas fa-calculator
+      link:
+        url: /transfer-cost-calculator
+        text: "Calculate"
+
+more-calculators:
+  title: "More Calculators"
+  text: ""
+  section: more-calculators
+  list:
+    - title: "Amortisation Calculator"
+      desc: "Calculate how your repayment is structured."
+      icon: fas fa-calculator
+      link:
+        url: /amortisation-calculator
+        text: "Calculate"
+
+    - title: "Deposit Savings Calculator"
+      desc: "Calculate how much you need to save for your deposit."
+      icon: fas fa-calculator
+      link:
+        url: /deposit-savings-calculator
+        text: "Calculate"
+    - title: "Additional Payment Calculator"
+      desc: "Calculate your savings on your total home loan cost by paying a little extra into your bond."
+      icon: fas fa-calculator
+      link:
+        url: /additional-payment-calculator
+        text: "Calculate"
+
+textblock:
+  title: "The Process"
+  text: ""
+  footer: ""
+  section: textblock
+  list:
+  - title: "<strong>Plan</strong> – Get Pre-Approved. We take the time to answer your questions and explain every step of the journey."
+    image: "fas fa-circle"
+  - title: "<strong>Decide</strong> – Find your dream home and sign an Offer to Purchase."
+    image: "fas fa-circle"
+  - title: "<strong>Prepare</strong> – We gather the final required supporting documentation from you to ensure a bulletproof application."    
+    image: "fas fa-circle"
+  - title: "<strong>Apply</strong> – We handle the heavy lifting, applying to all major banks (including your own) at once."    
+    image: "fas fa-circle"
+  - title: "<strong ng>We negotiate</strong> – We fight to secure the most competitive interest rates and terms from each of the banks."    
+    image: "fas fa-circle"
+  - title: "<strong>You choose</strong> – Review the offers and select the home-loan package that fits your life best."
+    image: "fas fa-circle"
+
+portfolio:
+  title: "Other Services"
+  text: "Some of our work"
+  section: portfolio
+  closebutton: "Close"
+
+about:
+  title: "About Us"
+  text2:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    <br><br>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <br><br>
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    <br><br>
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  text3: ""
+
+clients:
+  title: We work with all the leading banks
+  title2: Experienced, Knowledgeable & Dedicated to Customer Service
+  text:
+  section: clients
+  max-height: 120px
+  horizontal-scrolling: "" #"yes/no"
+  list:
+    - title: "ABSA"
+      url: https://www.absa.co.za
+      logo: assets/img/clients/absa-bw.png
+
+    - title: "FNB"
+      url: https://www.fnb.co.za/
+      logo: assets/img/clients/fnb-n.png
+
+    - title: "Housing Investment Partners"
+      url: https://www.hiphousing.co.za/
+      logo: assets/img/clients/hip.jpg
+
+    - title: "Investec"
+      url: https://www.investec.co.za/
+      logo: assets/img/clients/investec.png
+
+    - title: "Nedbank"
+      url: https://www.nedbank.co.za
+      logo: assets/img/clients/nedbank-bw.png
+
+    - title: "Rand Merchant Bank"
+      url: https://www.rmb.co.za
+      logo: assets/img/clients/rmb-img-n.png
+
+    - title: "Standard Bank"
+      url: https://www.standardbank.co.za/
+      logo: assets/img/clients/SBSA-bw.png
+    - title: "Sentinal Homes"
+      url: https://www.sentinelhomes.co.za/
+      logo: assets/img/clients/sentinal-homes.png
+
+experienced:
+  title: We Get Bonds Approved
+  text: With 10+ years of experience. If you are salaried or self-employed — we've seen it all, and we know how to get you approved.
+
+team:
+  title: "The Team"
+  text: We would love to hear from you and assist you in your home buying journey.
+  # subtext: Text Below the Images, also Markdown is suppoted **Bold Text Allowed**
+  section: team
+  contact:
+  office_hours:
+    title: "Office Hours"
+    lines:
+      - "Mon to Fri : 9 AM to 5 PM"
+      - "Sat: 9 AM to 1PM"
+      - "Sun & Public Holidays: Closed"
+    urgent_note: "Need urgent assistance after hours? Contact Eveshan Venkatasami directly on 061 206 6724."
+
+  people:
+    - name: "Eveshan<br>Venkatasami"
+      role: "Director"
+      image: assets/img/team/eveshan-profile.png
+      bio: "Dedicated to providing personalized financial solutions and guiding clients through every step of the bond application process."
+      social:
+        - url: tel:+27612066724
+          icon: fas fa-phone
+        - url: mailto:firstclassfinance@evogroup.co.za?subject=First Class Finance Website Enquiry
+          icon: fas fa-envelope
+        - url: https://wa.me/+27612066724
+          icon: fab fa-whatsapp
+    - name: "Venetia<br>Murugan"
+      role: "Bond Consultant"
+      image: assets/img/team/venitia-profile.png
+      bio: "Specializing in home loan origination and helping clients secure the best rates across all major banks."
+      social:
+        - url: tel:+27845915551
+          icon: fas fa-phone
+        - url: mailto:firstclassfinance@evogroup.co.za?subject=First Class Finance Website Enquiry
+          icon: fas fa-envelope
+        - url: https://wa.me/+27845915551
+          icon: fab fa-whatsapp
+    - name: "Delwin Thabo<br>Gasa"
+      role: "Finance Consultant"
+      image: assets/img/team/thabo-gasa-profile_bg.png
+      bio: "With expert knowledge in real estate finance, Thabo ensures that every client receives the best possible deal on their home loan."
+      social:
+        - url: tel:+27643373940
+          icon: fas fa-phone
+        - url: mailto:thabo.firstclass@evogroup.co.za?subject=First Class Finance Website Enquiry
+          icon: fas fa-envelope
+        - url: https://wa.me/+27643373940
+          icon: fab fa-whatsapp
+    - name: "Kaylene<br>Ramgarib"
+      role: "Bond Consultant"
+      image: assets/img/team/kaylene-profile.png
+      bio: "With a focus on exceptional service, Kaylene helps clients navigate the complexities of home finance to secure the best possible bond solutions."
+      social:
+        - url: tel:+27628750066
+          icon: fas fa-phone
+        - url: mailto:Kaylene.firstclass@evogroup.co.za?subject=First Class Finance Website Enquiry
+          icon: fas fa-envelope
+        - url: https://wa.me/+27628750066
+          icon: fab fa-whatsapp
+
+testimonials:
+  title: "TESTIMONIALS"
+  text: ""
+  section: testimonials
+  people:
+    - name: ""
+      testimony: ""
+
+    - name: ""
+      testimony: ""
+
+contact:
+  title: "Get in Touch"
+  text: "We're here to help. First-time buyer or refinancing? We'll guide you through every step."
+  section: contact
+  office_hours:
+    title: "Office Hours"
+    lines:
+      - "OPEN : 9 AM - 5 PM, MON to FRI"
+      - "CLOSED : Sat, Sun & Public Holidays"
+
+footer:
+  legal: "Powered by evo Home Loans"
+  social:
+    - url: https://www.instagram.com/firstclassfinancesa
+      icon: "fab fa-instagram"
+    - url: https://www.tiktok.com/@firstclassfinancesa
+      icon: "fab fa-tiktok"

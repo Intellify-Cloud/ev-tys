@@ -1,0 +1,14 @@
+nav:
+  - title: "The Process"
+    section: textblock
+
+  - title: "Calculators"
+    section: calculators
+
+  - title: "Team"
+    section: team
+    
+  - title: "Contact"
+    url: /contact
+
+
