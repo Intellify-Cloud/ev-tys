@@ -1,6 +1,8 @@
 node_modules
 .claude/settings.local.json
 .mcp.json
+.env
+.env.*
 
 *.gem
 .bundle
