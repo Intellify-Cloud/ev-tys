@@ -9,11 +9,28 @@ header:
     - title: "Vehicle Finance"
       icon: "fas fa-car"
 
+hero:
+  eyebrow: "Secure the best bond deals."
+  headline: "Own your dream."
+  body1: "Take ownership of your future through property."
+  body2: "We simplify the bond process and secure the best deals from the banks."
+  button: "Get Started"
+
+intro:
+  title: "Secure the best<br />bond deals."
+  body: "Mzansi bonds empowers the people of South Africa to take ownership of their future through property. As a champion for everyday South Africans, we simplify the bond process, unlock the best deals from the banks, and guide people on the journey to home ownership."
+
 expert:
-  title: "Buy with Confidence"
-  text: "By conducting a thorough pre-approval assessment, we assist purchasers to plan & understand the level of credit that they’ll be able to secure from the banks."
-  button 1 text: ""
-  button 2 text: ""
+  title: "Expert<br />guidance from<br />start to finish."
+  body: "We guide you through every step of the bond process so you can move forward with confidence."
+  cta_text: "WhatsApp us for expert advice."
+  image_alt: "Expert consultation"
+
+2-col-image_left_text_right:
+  title: "Access to the<br />best deals from<br />the banks."
+  body: "We work with South Africa's leading banks to secure the most competitive home loan offers."
+  cta_text: "Get<br />started."
+  image_alt: "Man on sofa"
 
 nocharge:
   title: "No Charge for our Service"
@@ -145,35 +162,36 @@ clients:
   horizontal-scrolling: "" #"yes/no"
   list:
     - title: "ABSA"
-      url: https://www.absa.co.za
-      logo: assets/img/clients/absa-bw.png
+      url: "https://www.absa.co.za"
+      logo: "assets/img/clients/absa-bw.png"
 
     - title: "FNB"
-      url: https://www.fnb.co.za/
-      logo: assets/img/clients/fnb-n.png
-
-    - title: "Housing Investment Partners"
-      url: https://www.hiphousing.co.za/
-      logo: assets/img/clients/hip.jpg
-
-    - title: "Investec"
-      url: https://www.investec.co.za/
-      logo: assets/img/clients/investec.png
+      url: "https://www.fnb.co.za"
+      logo: "assets/img/clients/fnb-n.png"
 
     - title: "Nedbank"
-      url: https://www.nedbank.co.za
-      logo: assets/img/clients/nedbank-bw.png
-
-    - title: "Rand Merchant Bank"
-      url: https://www.rmb.co.za
-      logo: assets/img/clients/rmb-img-n.png
+      url: "https://www.nedbank.co.za"
+      logo: "assets/img/clients/nedbank-bw.png"
 
     - title: "Standard Bank"
-      url: https://www.standardbank.co.za/
-      logo: assets/img/clients/SBSA-bw.png
-    - title: "Sentinal Homes"
-      url: https://www.sentinelhomes.co.za/
-      logo: assets/img/clients/sentinal-homes.png
+      url: "https://www.standardbank.co.za"
+      logo: "assets/img/clients/SBSA-bw.png"
+
+    - title: "RMB"
+      url: "https://www.rmb.co.za"
+      logo: "assets/img/clients/rmb-img-n.png"
+
+    - title: "Investec"
+      url: "https://www.investec.co.za"
+      logo: "assets/img/clients/investec.png"
+
+    - title: "Housing Investment Partners"
+      url: "https://www.hiphousing.co.za"
+      logo: "assets/img/clients/hip.jpg"
+
+    - title: "Sentinel Homes"
+      url: "https://www.sentinelhomes.co.za"
+      logo: "assets/img/clients/sentinal-homes.png"
 
 experienced:
   title: We Get Bonds Approved
@@ -191,52 +209,52 @@ team:
       - "Mon to Fri : 9 AM to 5 PM"
       - "Sat: 9 AM to 1PM"
       - "Sun & Public Holidays: Closed"
-    urgent_note: "Need urgent assistance after hours? Contact Eveshan Venkatasami directly on 061 206 6724."
+    urgent_note: "Need urgent assistance after hours? Contact our team directly for support."
 
   people:
-    - name: "Eveshan<br>Venkatasami"
+    - name: "Marcus<br>Aurelius"
       role: "Director"
-      image: assets/img/team/eveshan-profile.png
+      image: 
       bio: "Dedicated to providing personalized financial solutions and guiding clients through every step of the bond application process."
       social:
-        - url: tel:+27612066724
+        - url: tel:+27000000000
           icon: fas fa-phone
-        - url: mailto:firstclassfinance@evogroup.co.za?subject=First Class Finance Website Enquiry
+        - url: mailto:team@example.com?subject=First Class Finance Website Enquiry
           icon: fas fa-envelope
-        - url: https://wa.me/+27612066724
+        - url: https://wa.me/+27000000000
           icon: fab fa-whatsapp
-    - name: "Venetia<br>Murugan"
+    - name: "Epictetus<br>of Hierapolis"
       role: "Bond Consultant"
-      image: assets/img/team/venitia-profile.png
+      image: 
       bio: "Specializing in home loan origination and helping clients secure the best rates across all major banks."
       social:
-        - url: tel:+27845915551
+        - url: tel:+27000000000
           icon: fas fa-phone
-        - url: mailto:firstclassfinance@evogroup.co.za?subject=First Class Finance Website Enquiry
+        - url: mailto:team@example.com?subject=First Class Finance Website Enquiry
           icon: fas fa-envelope
-        - url: https://wa.me/+27845915551
+        - url: https://wa.me/+27000000000
           icon: fab fa-whatsapp
-    - name: "Delwin Thabo<br>Gasa"
+    - name: "Seneca<br>the Younger"
       role: "Finance Consultant"
-      image: assets/img/team/thabo-gasa-profile_bg.png
+      image: 
       bio: "With expert knowledge in real estate finance, Thabo ensures that every client receives the best possible deal on their home loan."
       social:
-        - url: tel:+27643373940
+        - url: tel:+27000000000
           icon: fas fa-phone
-        - url: mailto:thabo.firstclass@evogroup.co.za?subject=First Class Finance Website Enquiry
+        - url: mailto:team@example.com?subject=First Class Finance Website Enquiry
           icon: fas fa-envelope
-        - url: https://wa.me/+27643373940
+        - url: https://wa.me/+27000000000
           icon: fab fa-whatsapp
-    - name: "Kaylene<br>Ramgarib"
+    - name: "Zeno<br>of Citium"
       role: "Bond Consultant"
-      image: assets/img/team/kaylene-profile.png
+      image: 
       bio: "With a focus on exceptional service, Kaylene helps clients navigate the complexities of home finance to secure the best possible bond solutions."
       social:
-        - url: tel:+27628750066
+        - url: tel:+27000000000
           icon: fas fa-phone
-        - url: mailto:Kaylene.firstclass@evogroup.co.za?subject=First Class Finance Website Enquiry
+        - url: mailto:team@example.com?subject=First Class Finance Website Enquiry
           icon: fas fa-envelope
-        - url: https://wa.me/+27628750066
+        - url: https://wa.me/+27000000000
           icon: fab fa-whatsapp
 
 testimonials:

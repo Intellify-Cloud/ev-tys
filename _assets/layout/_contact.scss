@@ -30,15 +30,15 @@
 }
 
 .contact-hero-heading {
-  font-size: 3rem; // text-5xl
-  font-weight: 800; // font-extrabold
-  letter-spacing: -0.025em; // tracking-tight
-  color: #002d62;
-  margin-bottom: 1.5rem; // mb-6
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: $card-bg;
+  margin-bottom: 1.5rem;
   line-height: 1.1;
 
   @media (min-width: 768px) {
-    font-size: 3.75rem; // md:text-6xl
+    font-size: 3.75rem;
   }
 }
 
@@ -73,41 +73,45 @@
   }
 }
 
+// ── Shared card tokens ──
+$card-bg:      #4D1B36;   // mzansi-purple
+$card-accent:  #F15A24;   // mzansi-orange
+$card-radius:  1.25rem;   // rounded-[20px]
+
 // ── Office Hours Card ──
 .office-hours-card {
-  background: $white;
-  border-radius: 0.75rem; // rounded-xl
-  padding: 2.5rem; // p-10
+  background: $card-bg;
+  border-radius: $card-radius;
+  padding: 2.5rem;
   position: relative;
   overflow: hidden;
-  box-shadow: $shadow-sm;
-  margin-bottom: 2rem; // space-y-8 between left sections
+  margin-bottom: 2rem;
 }
 
 .office-hours-decor {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 2rem; // p-8
-  font-size: 6rem; // text-8xl
-  opacity: 0.10; // 10% opacity
-  color: $primary;
+  padding: 2rem;
+  font-size: 6rem;
+  opacity: 0.12;
+  color: $card-accent;
   pointer-events: none;
 }
 
 .office-hours-heading {
-  font-size: 1.875rem; // text-3xl
-  font-weight: 700; // font-bold
-  margin-bottom: 2rem; // mb-8
-  color: #002d62;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: $white;
   @include heading-font;
 }
 
 .office-hours-row {
   display: flex;
   align-items: flex-start;
-  gap: 1rem; // gap-4
-  margin-bottom: 1.5rem; // space-y-6
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 
   &:last-child {
     margin-bottom: 0;
@@ -115,10 +119,10 @@
 }
 
 .office-hours-icon {
-  padding: 0.75rem; // p-3
-  border-radius: 0.5rem; // rounded-lg
-  background: rgba($primary, 0.08);
-  color: $primary;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: rgba($card-accent, 0.18);
+  color: $card-accent;
   font-size: 1rem;
   flex-shrink: 0;
   display: flex;
@@ -130,26 +134,26 @@
 
 .office-hours-label {
   display: block;
-  font-size: 0.75rem; // text-xs
-  font-weight: 600; // font-semibold
+  font-size: 0.75rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em; // tracking-wider
-  margin-bottom: 0.25rem; // mb-1
-  color: $gray-600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+  color: $card-accent;
   @include heading-font;
 }
 
 .office-hours-value {
   display: block;
-  font-size: 1.125rem; // text-lg
-  color: #002d62;
+  font-size: 1.125rem;
+  color: $white;
 }
 
 // ── Quick Contact Actions ──
 .quick-actions {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); // grid-cols-3
-  gap: 1rem; // gap-4
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .quick-action-tile {
@@ -157,44 +161,42 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem; // p-4
-  border-radius: 0.75rem; // rounded-xl
-  border: 1px solid rgba($gray-300, 0.10); // border-outline/10
-  background: $white;
+  padding: 1.25rem 1rem;
+  border-radius: $card-radius;
+  border: none;
+  background: $card-bg;
   text-decoration: none;
-  color: #002d62;
-  transition: box-shadow 0.2s, transform 0.15s;
-  box-shadow: $shadow-sm;
+  color: $white;
+  transition: transform 0.15s, background 0.2s;
   text-align: center;
 
   &:hover {
-    box-shadow: $shadow-md;
     transform: translateY(-2px);
+    background: lighten($card-bg, 8%);
     text-decoration: none;
-    color: #002d62;
+    color: $white;
   }
 
   i {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem; // mb-2
-    color: $primary;
+    margin-bottom: 0.5rem;
+    color: $card-accent;
   }
 
   span {
-    font-size: 10px; // text-[10px]
-    font-weight: 700; // font-bold
+    font-size: 10px;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em; // tracking-widest
+    letter-spacing: 0.1em;
     @include heading-font;
   }
 }
 
 // ── Contact Form Card ──
 .contact-form-card {
-  background: $white;
-  border-radius: 0.75rem; // rounded-xl
-  padding: 2.5rem; // p-10
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06); // soft box shadow
+  background: $card-bg;
+  border-radius: $card-radius;
+  padding: 2.5rem;
 }
 
 .contact-form {
@@ -203,16 +205,16 @@
 
 // Form field spacing: space-y-6
 .form-field {
-  margin-bottom: 1.5rem; // space-y-6
+  margin-bottom: 1.5rem;
 
   label {
     display: block;
-    font-size: 0.75rem; // text-xs
-    font-weight: 700; // font-bold
+    font-size: 0.75rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em; // tracking-widest
-    margin-bottom: 0.5rem; // space-y-2
-    color: #002d62;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+    color: $card-accent;
     @include heading-font;
   }
 }
@@ -232,27 +234,27 @@
 // Input / Textarea shared
 .form-input {
   width: 100%;
-  border-radius: 0.5rem; // rounded-lg
-  padding: 0.75rem 1rem; // px-4 py-3
-  border: none; // no border
-  background: $gray-100;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: rgba($white, 0.12);
   font-size: 0.95rem;
   @include body-font;
-  color: #222;
+  color: $white;
   box-sizing: border-box;
   outline: none;
   transition: box-shadow 0.2s;
 
   &::placeholder {
-    color: $gray-500;
+    color: rgba($white, 0.45);
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px $white, 0 0 0 4px $primary; // ring-2 ring-offset-2
+    box-shadow: 0 0 0 2px $card-accent;
   }
 
   &.error {
-    box-shadow: 0 0 0 2px $white, 0 0 0 4px #e53935;
+    box-shadow: 0 0 0 2px #e53935;
   }
 }
 
@@ -261,7 +263,7 @@
 }
 
 .req {
-  color: $primary;
+  color: $card-accent;
 }
 
 .error-message {
@@ -297,21 +299,21 @@
 .btn-submit {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem; // gap-2
-  background: $primary;
+  gap: 0.5rem;
+  background: $card-accent;
   color: $white;
   border: none;
-  border-radius: 0.5rem; // rounded-lg
-  padding: 1rem 2.5rem; // px-10 py-4
-  font-size: 1.125rem; // text-lg
-  font-weight: 700; // font-bold
+  border-radius: 0.5rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
   @include heading-font;
   cursor: pointer;
   transition: background 0.2s, transform 0.15s;
-  width: 100%; // w-full on mobile
+  width: 100%;
 
   @media (min-width: 768px) {
-    width: auto; // auto on md
+    width: auto;
   }
 
   i {
@@ -319,20 +321,20 @@
   }
 
   &:hover:not(:disabled) {
-    background: darken($primary, 10%);
+    background: darken($card-accent, 10%);
     transform: translateY(-1px);
   }
 
   &:disabled {
-    background: lighten($primary, 20%);
+    background: lighten($card-accent, 20%);
     cursor: not-allowed;
   }
 }
 
 // Privacy note
 .privacy-note {
-  margin-top: 1rem; // mt-4
-  font-size: 0.75rem; // text-xs
+  margin-top: 1rem;
+  font-size: 0.75rem;
   font-style: italic;
-  color: $gray-600;
+  color: rgba($white, 0.5);
 }

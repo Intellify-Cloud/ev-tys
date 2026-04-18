@@ -18,7 +18,7 @@ logo:
   path: /favicon.png
   alt: Mzansi Bonds Logo
 
-exclude: [node_modules, webpack-config.js, package.json, package-lock.json]
+exclude: [node_modules, webpack-config.js, package.json, package-lock.json, design]
 
 group: Mzansi Bonds
 
