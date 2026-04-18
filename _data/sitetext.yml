@@ -286,3 +286,7 @@ footer:
       icon: "fab fa-instagram"
     - url: https://www.tiktok.com/@firstclassfinancesa
       icon: "fab fa-tiktok"
+
+engagement:
+  heading: "Empowering South Africans through property ownership."
+  copy: "We believe everyone deserves the opportunity to own their dream home."
