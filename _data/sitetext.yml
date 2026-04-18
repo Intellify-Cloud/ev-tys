@@ -280,6 +280,7 @@ contact:
 
 footer:
   legal: "Powered by evo Home Loans"
+  design_credit: 'Website by <a href="https://www.intellify.co.za/" target="_blank" rel="noopener noreferrer" class="font-bold hover:text-mzansi-orange">Intellify</a>'
   social:
     - url: https://www.instagram.com/firstclassfinancesa
       icon: "fab fa-instagram"
