@@ -1,23 +1,23 @@
 <!-- BEGIN: MainFooter -->
 <footer class="bg-mzansi-teal/40 py-16">
   <div class="max-w-[1200px] mx-auto px-6">
-    <div class="flex flex-col lg:flex-row justify-between items-center space-y-12 lg:space-y-0">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
       <!-- Footer Logo and Social -->
       <div class="space-y-6">
-        <div class="text-4xl font-black text-mzansi-orange">ṁzansi bonds</div>
-        <div class="flex space-x-4 text-mzansi-orange text-2xl">
-          <a href="https://www.instagram.com/mzansibonds" target="_blank" rel="noopener noreferrer"><i
+        <img class="h-16 w-auto" src="{{ site.baseurl }}/assets/img/logo/mzansi-bonds-logo.png" alt="Mzansi Bonds Logo">
+        <div class="flex space-x-4">
+          <a href="https://www.instagram.com/mzansibonds" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 border-2 border-mzansi-orange rounded-full text-mzansi-orange text-2xl"><i
               class="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/mzansibonds" target="_blank" rel="noopener noreferrer"><i
+          <a href="https://www.facebook.com/mzansibonds" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 border-2 border-mzansi-orange rounded-md text-mzansi-orange text-2xl"><i
               class="fab fa-facebook"></i></a>
-          <a href="https://www.linkedin.com/company/mzansibonds" target="_blank" rel="noopener noreferrer"><i
+          <a href="https://www.linkedin.com/company/mzansibonds" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-10 h-10 border-2 border-mzansi-orange rounded-full text-mzansi-orange text-2xl"><i
               class="fab fa-linkedin"></i></a>
         </div>
       </div>
       <!-- Central Decorative Circle -->
-      <div class="hidden lg:block">
+      <div class="hidden lg:flex justify-center">
         <div
-          class="bg-mzansi-orange text-white w-44 h-44 rounded-full flex flex-col items-center justify-center text-center p-4 font-bold text-xl leading-tight">
+          class="bg-mzansi-orange text-white w-35 h-35 rounded-full flex flex-col items-center justify-center text-center p-4 font-bold text-xl leading-tight">
           <span>Own your dream.</span>
         </div>
       </div>
@@ -29,7 +29,7 @@
           <p>Email: {{ site.contact.email }}</p>
         </div>
         <div
-          class="flex flex-col md:flex-row gap-4 justify-center lg:justify-end text-mzansi-purple font-bold text-xs uppercase underline">
+          class="inline-flex gap-4 justify-center lg:justify-end text-mzansi-purple font-bold text-xs uppercase underline">
           <a href="{{ site.baseurl }}/bond-calculator">calculators</a>
           <a href="{{ site.baseurl }}/documents">documents</a>
           <a href="{{ site.baseurl }}/#get-started">get started</a>
@@ -46,8 +46,8 @@
           <a href="{{ site.baseurl }}/legal">T&amp;Cs</a>
         </div>
       </div>
-      <div class="mt-4 md:mt-0 opacity-60">
-        WEBSITE DESIGN BY <span class="border px-1">Intellify</span>
+      <div class="mt-4 md:mt-0">
+        WEBSITE DESIGN BY <span class="bg-gray-900 text-white px-2 py-1 rounded-full">VDSC</span>
       </div>
     </div>
   </div>

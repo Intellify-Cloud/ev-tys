@@ -1,150 +1,106 @@
 // ── Team Section Styles ───────────────────────────
-// Premium, modern design inspired by Google Stitch
+// High-fidelity redesign with asymmetric layout
 
-.team-hours-card {
-  background: $white;
-  border-radius: 20px !important;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba($gray-300, 0.2) !important;
-  
-  &:hover {
-    box-shadow: 0 12px 32px rgba($black, 0.06) !important;
-    transform: translateY(-4px);
+#team {
+  // Brand Colors
+  $mzansi-purple: #5f203e;
+  $mzansi-sky: #0093c9;
+  $mzansi-cream: #FDF9EB;
+  $mzansi-green-glass: rgba(200, 229, 212, 0.4);
+
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
   }
-}
 
-.team-hours-title {
-  color: #002d62;
-  @include heading-font;
-}
-
-.team-hours-list p {
-  font-size: 1.05rem;
-  @include body-font;
-}
-
-// ── Featured Card ──────────────────────────────
-.team-featured-card {
-  background: $white;
-  border-radius: 24px !important;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba($gray-300, 0.1) !important;
-  
-  &:hover {
-    box-shadow: 0 20px 48px rgba($black, 0.08) !important;
-  }
-}
-
-.team-featured-image-wrapper {
-  flex: 0 0 45%;
-  min-height: 350px;
-  background: $gray-100;
-  overflow: hidden;
-  
-  .featured-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s ease;
-  }
-  
-  &:hover .featured-img {
-    transform: scale(1.05);
-  }
-}
-
-.team-featured-name {
-  color: #002d62;
-  @include heading-font;
-  letter-spacing: -0.02em;
-}
-
-.team-featured-bio {
-  line-height: 1.8;
-  font-size: 0.95rem;
-  @include body-font;
-}
-
-// ── Grid Member Cards ───────────────────────────
-.team-card-v {
-  background: $white;
-  border-radius: 20px !important;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba($black, 0.1) !important;
+  // Large Featured Card
+  .team-featured-card {
+    background: $mzansi-cream;
+    border-radius: 1.5rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     
-    .team-card-image-wrapper img {
-      transform: scale(1.08);
+    &:hover {
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+      
+      img {
+        transform: scale(1.02);
+      }
+    }
+
+    img {
+      transition: transform 0.6s ease-in-out;
+    }
+  }
+
+  // Office Hours Card
+  .team-hours-card {
+    background: $mzansi-green-glass;
+    border: 1px solid #c8e5d4;
+    border-radius: 1.5rem;
+    
+    .icon-wrapper {
+      background: $mzansi-purple;
+      color: white;
+    }
+  }
+
+  // Grid Member Cards
+  .team-member-card {
+    background: white;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+      
+      img {
+        transform: scale(1.08);
+      }
+    }
+
+    .image-wrapper {
+      border-radius: 1rem;
+      overflow: hidden;
+      aspect-ratio: 1 / 1;
+      
+      img {
+        transition: transform 0.5s ease;
+      }
+    }
+  }
+
+  // Icon Hover Effects
+  .contact-icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: $mzansi-sky;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: $mzansi-sky;
+      color: white;
+      transform: scale(1.1);
     }
   }
 }
 
-.team-card-image-wrapper {
-  height: 280px;
-  overflow: hidden;
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-  }
-}
-
-.team-card-name {
-  color: #002d62;
-  @include heading-font;
-}
-
-// ── Interaction Elements ─────────────────────────
-.btn-mzansi-accent {
-  background: rgba($primary, 0.08);
-  color: $primary;
-  border: none;
-  width: 48px;
-  height: 48px;
-  padding: 0;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    background: $primary;
-    color: $white;
-    transform: rotate(8deg);
-  }
-}
-
-.btn-mzansi-accent-sm {
-  background: rgba($primary, 0.05);
-  color: $primary;
-  border: none;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
-  
-  &:hover {
-    background: $primary;
-    color: $white;
-    transform: scale(1.1);
-  }
-}
-
-// ── Global Styles Overrides ─────────────────────
-.fw-black { font-weight: 900; }
-.tracking-widest { letter-spacing: 0.15em; }
-
-// ── Responsive ──
+// ── Responsive Refinements ──
 @media (max-width: 991px) {
-  .team-featured-image-wrapper {
-    flex: 0 0 300px;
-    height: 300px;
-  }
-  .team-featured-card {
-    flex-direction: column !important;
+  #team {
+    .lg\:col-span-7 {
+      flex-direction: column !important;
+      
+      .md\:w-1/2 {
+        width: 100% !important;
+        min-height: 300px;
+      }
+    }
   }
 }
