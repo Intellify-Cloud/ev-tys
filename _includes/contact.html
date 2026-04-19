@@ -5,7 +5,8 @@
     <!-- HERO -->
     <div class="contact-hero">
       <h1 class="contact-hero-heading">{{ site.data.sitetext.contact.title | default: "Contact Us" }}</h1>
-      <p class="contact-hero-subtext">{{ site.data.sitetext.contact.text | default: "We're here to help. First-time buyer or refinancing? We'll guide you through every step." }}</p>
+      <p class="contact-hero-subtext">{{ site.data.sitetext.contact.text | default: "We're here to help. First-time
+        buyer or refinancing? We'll guide you through every step." }}</p>
     </div>
 
     <!-- MAIN GRID -->
@@ -19,17 +20,18 @@
           <span class="office-hours-decor" aria-hidden="true">
             <i class="fas fa-clock"></i>
           </span>
-          <h3 class="office-hours-heading">{{ site.data.sitetext.contact.office_hours.title | default: "Office Hours" }}</h3>
+          <h3 class="office-hours-heading">{{ site.data.sitetext.contact.office_hours.title | default: "Office Hours" }}
+          </h3>
           {% for line in site.data.sitetext.contact.office_hours.lines %}
           <div class="office-hours-row">
             {% assign parts = line | split: ":" %}
             <div class="office-hours-icon">
               {% if forloop.index == 1 %}
-                <i class="fas fa-calendar-check"></i>
+              <i class="fas fa-calendar-check"></i>
               {% elsif forloop.index == 2 %}
-                <i class="fas fa-calendar-xmark"></i>
+              <i class="fas fa-calendar-xmark"></i>
               {% else %}
-                <i class="fas fa-clock"></i>
+              <i class="fas fa-clock"></i>
               {% endif %}
             </div>
             <div>
@@ -46,7 +48,8 @@
             <i class="fas fa-phone"></i>
             <span>Call</span>
           </a>
-          <a href="mailto:firstclassfinance@evogroup.co.za?subject=First Class Finance Website Enquiry" class="quick-action-tile">
+          <a href="mailto:firstclassfinance@evogroup.co.za?subject=mzansi bonds Finance Website Enquiry"
+            class="quick-action-tile">
             <i class="fas fa-envelope"></i>
             <span>Email</span>
           </a>
@@ -73,12 +76,14 @@
             <div class="form-row-2col">
               <div class="form-field">
                 <label for="firstName">First Name <span class="req">*</span></label>
-                <input id="firstName" name="firstName" type="text" class="form-input" placeholder="Enter your first name" />
+                <input id="firstName" name="firstName" type="text" class="form-input"
+                  placeholder="Enter your first name" />
                 <span class="error-message" id="error-firstName"></span>
               </div>
               <div class="form-field">
                 <label for="lastName">Last Name <span class="req">*</span></label>
-                <input id="lastName" name="lastName" type="text" class="form-input" placeholder="Enter your last name" />
+                <input id="lastName" name="lastName" type="text" class="form-input"
+                  placeholder="Enter your last name" />
                 <span class="error-message" id="error-lastName"></span>
               </div>
             </div>
@@ -87,19 +92,22 @@
             <div class="form-row-2col">
               <div class="form-field">
                 <label for="emailAddress">Email Address <span class="req">*</span></label>
-                <input id="emailAddress" name="emailAddress" type="email" class="form-input" placeholder="name@example.com" />
+                <input id="emailAddress" name="emailAddress" type="email" class="form-input"
+                  placeholder="name@example.com" />
                 <span class="error-message" id="error-emailAddress"></span>
               </div>
               <div class="form-field">
                 <label for="phoneNumber">Phone Number</label>
-                <input id="phoneNumber" name="phoneNumber" type="tel" class="form-input" placeholder="+27 82 000 0000" />
+                <input id="phoneNumber" name="phoneNumber" type="tel" class="form-input"
+                  placeholder="+27 82 000 0000" />
               </div>
             </div>
 
             <!-- Message -->
             <div class="form-field">
               <label for="content">Message <span class="req">*</span></label>
-              <textarea id="content" name="content" rows="5" class="form-input form-textarea" placeholder="Tell us about your home loan needs — are you buying, building, or refinancing? What is your approximate property value and deposit?"></textarea>
+              <textarea id="content" name="content" rows="5" class="form-input form-textarea"
+                placeholder="Tell us about your home loan needs — are you buying, building, or refinancing? What is your approximate property value and deposit?"></textarea>
               <span class="error-message" id="error-content"></span>
             </div>
 
@@ -108,7 +116,8 @@
               Thank you — your enquiry has been received. A consultant will be in touch shortly.
             </div>
             <div id="status-error" class="status-message error" style="display:none;">
-              Sorry, something went wrong. Please call us directly and we will assist you with your home loan application.
+              Sorry, something went wrong. Please call us directly and we will assist you with your home loan
+              application.
             </div>
 
             <!-- Submit -->
@@ -117,7 +126,8 @@
               <i class="fas fa-paper-plane"></i>
             </button>
 
-            <p class="privacy-note">Your details are used solely to process your home loan pre-qualification and are never shared with third parties.</p>
+            <p class="privacy-note">Your details are used solely to process your home loan pre-qualification and are
+              never shared with third parties.</p>
 
           </form>
         </div>

@@ -1,13 +1,14 @@
 nav:
-  - title: "The Process"
-    section: textblock
+
+  - title: "Home"
+    url: /index.html
+
+  - title: "Get Started"
+    section: get-started
 
   - title: "Calculators"
-    section: calculators
+    url: /bond-calculator
 
-  - title: "Team"
-    section: team
-    
   - title: "Contact"
     url: /contact
 

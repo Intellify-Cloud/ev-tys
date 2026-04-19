@@ -8,12 +8,13 @@
 
     <!-- Nav links -->
     <nav class="hidden md:flex items-center space-x-8 text-xl font-bold text-mzansi-text tracking-wide">
-      <a class="text-mzansi-orange" href="{{ site.baseurl }}/">home</a>
-      <a class="hover:text-mzansi-orange transition-colors" href="{{ site.baseurl }}/about">about</a>
-      <a class="hover:text-mzansi-orange transition-colors" href="{{ site.baseurl }}/#get-started">get started</a>
-      <a class="hover:text-mzansi-orange transition-colors" href="{{ site.baseurl }}/bond-calculator">calculators</a>
-      <a class="hover:text-mzansi-orange transition-colors" href="{{ site.baseurl }}/#advice">advice</a>
-      <a class="bg-mzansi-orange text-white px-6 py-3 rounded-full font-bold hover:opacity-90 transition-opacity" href="{{ site.baseurl }}/contact">contact</a>
+      {% for item in site.data.navigation.nav %}
+        {% if item.url %}
+          <a class="hover:text-mzansi-orange transition-colors{% if item.title == 'Contact' %} bg-mzansi-orange text-white px-6 py-3 rounded-full font-bold hover:opacity-90 transition-opacity{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title | downcase }}</a>
+        {% elsif item.section %}
+          <a class="hover:text-mzansi-orange transition-colors" href="{{ site.baseurl }}/#{{ item.section }}">{{ item.title | downcase }}</a>
+        {% endif %}
+      {% endfor %}
     </nav>
 
     <!-- Mobile menu button -->
